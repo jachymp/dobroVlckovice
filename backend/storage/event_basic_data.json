@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Brigada unor 2023",
+        "events_type_id": 1,
+        "from": "2023-02-12",
+        "to": "2023-02-14",
+        "description": "Prvni brigada v tomto roce, tak doraz ne?",
+        "capacity": 15
+    },
+    {
+        "name": "Brigada brezen 2023",
+        "events_type_id": 1,
+        "from": "2023-03-16",
+        "to": "2023-03-18",
+        "description": "Prvnisad;aslkd brigada v tomto roce, tak doraz ne?",
+        "capacity": 15
+    },
+    {
+        "name": "Brigada duben 2023",
+        "events_type_id": 1,
+        "from": "2023-04-10",
+        "to": "2023-04-12",
+        "description": "Pradkasldjao;sjd;asd;asd;jaslf'sldifjlsafvni brigada v tomto roce, tak doraz ne?",
+        "capacity": 15
+    },
+    {
+        "name": "Brigada kveten 2023",
+        "events_type_id": 1,
+        "from": "2023-05-12",
+        "to": "2023-05-14",
+        "description": "Prvsndfifs bsdrgsiggsagsfsda v tomto roce, tak doraz ne?",
+        "capacity": 15
+    },
+    {
+        "name": "VlckoviceFest 2023",
+        "events_type_id": 2,
+        "from": "2023-07-03",
+        "to": "2023-07-05",
+        "description": "Prvsndfifs bsdrgsiggsagsfsda v tomto roce, tak doraz ne?",
+        "capacity": 15
+    }
+]

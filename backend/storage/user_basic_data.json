@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "name": "Jachym",
+        "surname": "Pivonka",
+        "password": 12345,
+        "email": "jachympivonka@gmail.com",
+        "email_verified_at": null,
+        "street": "Vlckovice",
+        "street_number": "35",
+        "city": "Vlckovice",
+        "zip_code": "25703",
+        "phone": "736122718",
+        "birthday": "1992-03-07",
+        "registration_date": "2023-01-01",
+        "last_login": "2023-01-20",
+        "diet": null
+    },
+    {
+        "id": 2,
+        "name": "Marie",
+        "surname": "Paleckova",
+        "password": "abcd12",
+        "email": "marup@gmail.com",
+        "email_verified_at": null,
+        "street": "Vodickova",
+        "street_number": "5",
+        "city": "Praha",
+        "zip_code": "10000",
+        "phone": "732876434",
+        "birthday": "1988-01-14",
+        "registration_date": "2023-01-22",
+        "last_login": "2023-01-23",
+        "diet": "vegetarian"
+    },
+    {
+        "id": 3,
+        "name": "Jan",
+        "surname": "Pocepicky",
+        "password": "1sdaads",
+        "email": "cepa@gmail.com",
+        "email_verified_at": null,
+        "street": "Neustupovska",
+        "street_number": "12b",
+        "city": "Neurvalov",
+        "zip_code": "25705",
+        "phone": "736154222",
+        "birthday": "1990-05-17",
+        "registration_date": "2023-01-12",
+        "last_login": "2023-01-12",
+        "diet": "vegan"
+    }
+]

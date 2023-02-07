@@ -1,0 +1,27 @@
+[
+    {
+        "name": "kydani hnoje",
+        "description": "musite vzit kopi a zapichnout ho do hnoja",
+        "capacity": 3
+    },
+    {
+        "name": "sekani dreva",
+        "description": "nasekat, navozit, vyrovnat",
+        "capacity": 6
+    },
+    {
+        "name": "prace na zahradce",
+        "description": "vytrhas plevel a piras se o lopatu",
+        "capacity": 2
+    },
+    {
+        "name": "Barmanstvi",
+        "description": "cepujes, nalevaj a taaaaak",
+        "capacity": 12
+    },
+    {
+        "name": "vstup",
+        "description": "cekujes jestli nechodi lidi bez listku",
+        "capacity": 4
+    }
+]
