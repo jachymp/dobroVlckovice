@@ -19,7 +19,6 @@ return new class extends Migration
             $table->bigInteger('activity_id')->unsigned();
             $table->foreign('event_id')->references('id')->on('events');
             $table->foreign('activity_id')->references('id')->on('activities');
-            $table->dateTime('logged');
             $table->timestamp('updated_at');
             $table->timestamp('created_at');
         });

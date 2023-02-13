@@ -19,4 +19,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('/homepage-data', [HomeController::class, 'data']);
+Route::get('/actual-event', [HomeController::class, 'actualEvent']);
+Route::get('/next-events', [HomeController::class, 'nextEvents']);
