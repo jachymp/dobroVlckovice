@@ -1,7 +1,7 @@
 .slideshow {
     margin: 0 auto;
     overflow: hidden;
-    max-width: 500px;
+    max-width: 1100px;
 }
 
 .slideshowSlider {
@@ -13,22 +13,5 @@
     display: inline-block;
     height: 400px;
     width: 100%;
-    border-radius: 40px;
-}
-
-.slideshowDots {
-    text-align: center;
-}
-.slideshowDot {
-    display: inline-block;
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-    cursor: pointer;
-    margin: 15px 7px 0px;
-    background-color: #c4c4c4;
-}
-
-.slideshowDot.active {
-    background-color: #6a0dad;
+    /*border-radius: 40px;*/
 }

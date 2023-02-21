@@ -2,7 +2,8 @@ import './slideshow.css';
 import {useEffect, useState} from "react";
 
 const colors = ["#0088FE", "#00C49F", "#FFBB28"];
-const delay = 2500;
+// 30s
+const delay = 30000;
 
 const Slideshow = () => {
     const [index, setIndex] = useState(0);
@@ -24,12 +25,6 @@ const Slideshow = () => {
                 {colors.map((backgroundColor, index) => (
                     <div className="slide" key={index} style={{backgroundColor}}></div>
                 ))}
-            </div>
-            <div className="slideshowDots">
-                {colors.map((_,idx) => (
-                    <div key={idx} className={`slideshowDot${index === idx ? " active" : ""}`}></div>
-                ))}
-
             </div>
         </div>
     );
