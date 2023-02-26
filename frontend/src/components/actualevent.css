@@ -1,0 +1,81 @@
+.actual-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 800px;
+    position: relative;
+    bottom: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.actual-basics {
+    text-align: center;
+}
+
+.actual-basics h2, p {
+    padding: 5px 0 5px 0;
+}
+
+.actual-basics-date {
+    display: flex;
+    justify-content: center;
+}
+
+.actual-basics-date p {
+    font-weight: bold;
+    padding: 5px 10px 5px 15px;
+    font-size: 1.2rem;
+}
+
+.actual-activities {
+    display: flex;
+    margin: 20px 0 20px 0;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.actual-activity {
+    border-radius: 10px;
+    text-align: center;
+    background-color: #ffcac8;
+    margin: 10px;
+}
+
+.actual-activity p {
+    padding: 5px 10px 5px 10px;
+    font-size: 0.9rem;
+}
+
+.actual-users {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 20px 0;
+}
+
+.actual-users h3 {
+    margin-bottom: 5px;
+}
+
+.actual-button {
+    display: flex;
+    justify-content: center;
+    height: 35px;
+}
+
+.actual-button button {
+    width: 30%;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-weight: bold;
+    background-color: #0f6674;
+}
+
+.actual-button button:hover {
+    cursor: pointer;
+    background-color: grey;
+}

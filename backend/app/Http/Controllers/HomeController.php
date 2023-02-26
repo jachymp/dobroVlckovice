@@ -10,10 +10,13 @@ class HomeController extends Controller
     // get the closest event - json
     public function actualEvent()
     {
-        $event = Event::with('activities')
+        $event = Event::with('activities')->with('users')
             ->where('from', '>=', today())
             ->orderBy('id', 'asc')
             ->first();
+        $event['from'] = date('d.m.Y', strtotime($event->from));
+        $event['to'] = date('d.m.Y', strtotime($event->to));
+
         return $event;
     }
 
