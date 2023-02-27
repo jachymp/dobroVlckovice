@@ -1,0 +1,13 @@
+.another-container {
+    display: flex;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1100px;
+    flex-direction: column;
+}
+
+.another-event {
+    display: flex;
+}
+
+

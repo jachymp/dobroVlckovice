@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar";
 import Slideshow from "./components/Slideshow";
 import './App.css';
 import ActualEvent from "./components/ActualEvent";
+import About from "./components/About";
+import AnotherEvents from "./components/AnotherEvents";
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <Navbar/>
         <Slideshow/>
         <ActualEvent/>
+      <About/>
+        <AnotherEvents/>
     </BrowserRouter>
   );
 }

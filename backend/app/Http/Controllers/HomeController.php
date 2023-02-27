@@ -32,6 +32,11 @@ class HomeController extends Controller
             ->orderBy('id', 'asc')
             ->get();
 
+        foreach ($nextEvents as $event) {
+            $event['from'] = date('d.m.Y', strtotime($event->from));
+            $event['to'] = date('d.m.Y', strtotime($event->from));
+        }
+
         return $nextEvents;
     }
 }
