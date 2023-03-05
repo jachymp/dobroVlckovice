@@ -5,6 +5,8 @@ import './App.css';
 import ActualEvent from "./components/ActualEvent";
 import About from "./components/About";
 import AnotherEvents from "./components/AnotherEvents";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <ActualEvent/>
       <About/>
         <AnotherEvents/>
+        <Contact/>
+        <Footer/>
     </BrowserRouter>
   );
 }

@@ -10,7 +10,6 @@ const AnotherEvents = () => {
         const response = await fetch(url);
         const result = await response.json();
         setAnotherEvent(result);
-        console.log(anotherEvent);
     }
 
     useEffect(() => {
@@ -18,9 +17,14 @@ const AnotherEvents = () => {
     },[]);
 
     return (
-        <>
-        <h2>Dal se muzeme tesit</h2>
         <div className="another-container">
+            <h2 className="another-headline">Dál se můžeme těšit</h2>
+            <div className="another-event another-header">
+                <div>Akce</div>
+                <div>Od</div>
+                <div>Do</div>
+                <div>Počet dobrovolníků</div>
+            </div>
             {anotherEvent.map((evn, index) => (
                 <div key={index} className="another-event">
                     <div>{evn.name}</div>
@@ -30,7 +34,6 @@ const AnotherEvents = () => {
                 </div>
             ))}
         </div>
-        </>
     )
 }
 
