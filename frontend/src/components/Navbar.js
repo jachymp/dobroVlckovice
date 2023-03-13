@@ -2,12 +2,19 @@ import {useState} from "react";
 import {NavLink} from "react-router-dom";
 // import { ReactComponent as Hamburger} from "../img/hamburger.svg";
 import './navbar.css';
+import Popup from "./Popup";
+import Login from "./Login";
 
 const Navbar = () => {
     const [showNav, setShowNav] = useState(false)
+    const [loginPopup, setLoginPopup] = useState(false)
 
     const toogleNavItems = () => {
         setShowNav(!showNav)
+    }
+
+    const showPopup = () => {
+        setLoginPopup(true);
     }
 
     return (
@@ -30,7 +37,10 @@ const Navbar = () => {
                         <li><NavLink to="/n">Následující akce</NavLink></li>
                         <li><NavLink to="/o">O dobrovolničení</NavLink></li>
                         <li><NavLink to="/k">Kontakt</NavLink></li>
-                        <li><NavLink to="/p">Přihlaš se</NavLink></li>
+                        <li><NavLink onClick={showPopup} to="/">Přihlaš se</NavLink></li>
+                        <Popup trigger={loginPopup} setTrigger={setLoginPopup}>
+                            <Login></Login>
+                        </Popup>
                     </ul>
                 </div>
             </div>
